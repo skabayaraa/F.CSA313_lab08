@@ -110,7 +110,8 @@ class CourseRegistrationServiceTest {
     // A6: assertThrows
     @Test
     void register_nullInput_throwsIllegalArgumentExceptionAndTouchesNoDependency() {
-        assertThrows(IllegalArgumentException.class, () -> service.register(null, null));
+        assertThrows(IllegalArgumentException.class, () -> service.register(null, COURSE_ID));
+        assertThrows(IllegalArgumentException.class, () -> service.register(STUDENT_ID, null));
 
         verifyNoInteractions(repository, emailSender);
     }
