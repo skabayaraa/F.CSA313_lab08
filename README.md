@@ -6,7 +6,16 @@
 ## Орчин
 
 ```
-PASTE_VERSIONS_HERE
+user@LAPTOP-TKT7IHD0:~/lab08-mockito$ java -version
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1-1-24.04.4-Ubuntu)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-24.04.4-Ubuntu, mixed mode, sharing)
+user@LAPTOP-TKT7IHD0:~/lab08-mockito$ mvn -version
+Apache Maven 3.8.7
+Maven home: /usr/share/maven
+Java version: 21.0.12.1, vendor: Ubuntu, runtime: /usr/lib/jvm/java-21-openjdk-amd64
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "6.6.87.2-microsoft-standard-wsl2", arch: "amd64", family: "unix"
 ```
 
 ## Тестийн тоо
